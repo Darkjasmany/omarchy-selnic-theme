@@ -1,0 +1,53 @@
+# SelNic — paleta del tema
+#
+# Azul marino profundo con acento carmesí. El carmesí se reserva para el borde
+# de la ventana enfocada y para el acento de la interfaz.
+#
+# `hyprland_active_border` y `hyprland_inactive_border` son las claves que lee
+# la plantilla de Hyprland; sin ellas el borde cae en `accent`. El mismo valor
+# mantiene alineados la pantalla de bloqueo, las notificaciones y los popups.
+#
+# Acepta degradado: hyprland_active_border = "#FF2C2C 45deg #FF7A5C"
+
+mode = "dark"
+
+hyprland_active_border   = "#E33E43"
+hyprland_inactive_border = "rgba(55758966)"
+
+# `accent` es el color de énfasis de Quickshell: indicadores de la barra, fills
+# de hover, bordes de popups, notificaciones y polkit. Se mantiene igual que el
+# borde activo para que «panel abierto» y «ventana activa» se lean juntos.
+accent = "#E33E43"
+
+background         = "#101C27"
+dark_background    = "#0B1620"
+darker_background  = "#071019"
+lighter_background = "#1C3446"
+
+foreground        = "#DCE5EC"
+dark_foreground   = "#7C94A7"
+light_foreground  = "#A9BECB"
+bright_foreground = "#F5F9FC"
+
+muted     = "#4A6070"
+selection = "#24455A"
+
+red     = "#E33E43"
+orange  = "#FF9057"
+yellow  = "#F5C451"
+green   = "#57C08A"
+cyan    = "#4FC5DB"
+blue    = "#5AA3D6"
+magenta = "#E07A97"
+brown   = "#9A7460"
+
+bright_red     = "#EE5A5E"
+bright_yellow  = "#FFDA7A"
+bright_green   = "#7FD9AC"
+bright_cyan    = "#7EDCEA"
+bright_blue    = "#8AC4EE"
+bright_magenta = "#F0A0B6"
+
+# Color de las carpetas de Nautilus. Se queda en la familia de los azules para
+# que el carmesí siga siendo exclusivo del foco y de los avisos.
+folder = "#5A96BA"

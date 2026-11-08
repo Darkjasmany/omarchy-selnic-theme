@@ -1,0 +1,16 @@
+# respaldos y parches
+*.bak
+*.orig
+*.rej
+*~
+.*.swp
+.*.swo
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+
+# Windows
+Thumbs.db
+desktop.ini
